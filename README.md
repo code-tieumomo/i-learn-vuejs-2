@@ -1,24 +1,5 @@
 # i-learn-vuejs
 
-## Project setup
-```
-npm install
-```
+## Tracking
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Sunday, 18th July 2021: Vuex - State
