@@ -13,6 +13,9 @@ const storeData = {
     auth: {
       isAuthenticated: false,
     },
+    game: {
+      isGame: false,
+    },
   },
   getters: {
     completedTodos: (state) => state.todos.filter((todo) => todo.completed),

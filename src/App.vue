@@ -1,34 +1,27 @@
 <template>
   <div id="app">
-    <navbar />
+    <!-- <navbar />
     <todos />
-    <status-bar />
+    <status-bar /> -->
+    <coming-soon />
   </div>
 </template>
 
 <script>
-import Navbar from "./components/Navbar.vue";
-import StatusBar from "./components/StatusBar.vue";
-import Todos from "./components/Todos.vue";
+// import Navbar from "./components/Navbar.vue";
+// import StatusBar from "./components/StatusBar.vue";
+// import Todos from "./components/Todos.vue";
+import ComingSoon from "./components/ComingSoon.vue";
 
 export default {
   name: "App",
   components: {
-    Todos,
-    Navbar,
-    StatusBar,
+    // Todos,
+    // Navbar,
+    // StatusBar,
+    ComingSoon,
   },
 };
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: rgb(219, 219, 219);
-  margin: 20px auto;
-  width: 90%;
-  max-width: 800px;
-}
-</style>
+<style></style>
